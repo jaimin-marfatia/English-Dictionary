@@ -1,1 +1,4 @@
 
+function showMeanings() {
+  alert("hello");
+}
