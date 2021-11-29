@@ -19,6 +19,14 @@ function CallDictionaryApi(_userInput) {
 function ProcessJson(data) {
 
   data.forEach(element => {
+
+    const para = document.createElement("li");
+    para.classList.add("flex-item");
+    const node = document.createTextNode("1");
+    para.appendChild(node);
+    const test = document.getElementById("flex-container");
+    test.appendChild(para);
+
     console.log(element.meanings);
   });
 
